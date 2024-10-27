@@ -1,10 +1,6 @@
 def main(a):
-    """
-    Check the natural number. Natural numbers are numbers used in counting.
-    Args:
-        a: int
-    Returns:
-        bool
-    """
-    # Write your code here
-    return 
+    return a >= 1 and isinstance(a, int)
+print (main(4))
+print (main(-2))
+print (main(0))
+print (main(3.4))
